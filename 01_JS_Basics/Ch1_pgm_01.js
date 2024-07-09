@@ -1,6 +1,7 @@
 // Using console.log to display information
 
-console.log("Hello World!");
+console.log("Welcome to 2nd MCA");
+console.log("KGiSL IIM");
 
 
 /* Further Adventures
