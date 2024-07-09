@@ -8,7 +8,8 @@ locationName = "Argentina";
 
 console.log(playerName + " is in " + locationName);
 
-
+var goal=340;
+console.log(playerName +" who is playing for " + locationName + " has scored " + goal +" goals.");
 
 /* Further Adventures
  *
