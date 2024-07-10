@@ -10,8 +10,20 @@ book = {
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
 
 
+var book1;
+
+book1={
+	title : "Neuromancer",
+	author : "William Gibson",
+	published : 2016
+};
+
+console.log(book1.title);
+console.log(book1.author);
+console.log(book1.published);
 
 /* Further Adventures
  *

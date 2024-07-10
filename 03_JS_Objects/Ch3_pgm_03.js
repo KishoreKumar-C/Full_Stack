@@ -10,7 +10,15 @@ book = {
 
 console.log(book);
 
+var book2;
 
+book2={
+    title:"All the Light We Cannot See",
+    author:"Anthony Doerr",
+    published:2014
+};
+
+console.log(book2)
 
 /* Further Adventures
  *

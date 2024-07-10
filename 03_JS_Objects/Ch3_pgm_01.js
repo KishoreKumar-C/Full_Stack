@@ -8,6 +8,15 @@ bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
 
+var bookTitle1="Dune"
+var bookAuthor1="Frank Herbert"
+
+console.log(bookTitle1 + " by " + bookAuthor1);
+
+var bookTitle2="A Game of Thrones";
+var bookAuthor2="George R.R. Martin";
+
+console.log(bookTitle2 + " by " + bookAuthor2);
 
 
 /* Further Adventures
