@@ -6,7 +6,9 @@ showMessage = function (message) {
 	console.log("The message is: " + message);
 };
 
-showMessage("It's full of stars!");
+showMessage("It's full of stress..");
+showMessage("Let's relax");
+showMessage("Let's play some games..");
 
 
 

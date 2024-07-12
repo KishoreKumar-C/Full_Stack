@@ -2,11 +2,13 @@
 
 var msg;
 var showMessage;
+var message;
 
-msg = "It's full of stars!";
+msg = "It's our time";
+message = "Let's rock"
 
 showMessage = function () {
-	console.log(message);
+	console.log(msg + " " + message);
 };
 
 showMessage();

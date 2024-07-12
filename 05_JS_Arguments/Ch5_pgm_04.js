@@ -3,12 +3,15 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: \n" + message);
 };
+
+var myMessage = "It's good to see you"
 
 showMessage("It's full of stars!");
 showMessage("Hello to Jason Isaacs");
 showMessage("Hello to Jason Isaacs and Stephen Fry");
+showMessage(myMessage);
 
 
 
