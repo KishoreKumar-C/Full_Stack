@@ -3,7 +3,7 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello \npeople\n");
 };
 
 sayHello();
@@ -11,6 +11,14 @@ sayHello();
 sayHello();
 
 
+var name1="Hello world!";
+function line(){
+	for(let i=0;i<name1.length;i++){
+		console.log(name1.charAt(i));
+	}
+}
+
+line();
 
 /* Further Adventures
  *

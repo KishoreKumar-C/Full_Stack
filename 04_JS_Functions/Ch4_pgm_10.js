@@ -18,7 +18,13 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-movie = movie1;
+movie2={
+  title:"Inception",
+  actors:"Leonardo DiCaprio , Ellen Page , Ken Watanabe",
+  directors:"Christopher Nolan"
+};
+
+movie = movie2;
 
 showMovieInfo();
 

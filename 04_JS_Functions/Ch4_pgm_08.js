@@ -6,10 +6,20 @@ displayMenu = function () {
 	console.log("Please choose an option:");
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
-	console.log("(9) Quit");
+	console.log("(3) Download file");
+	console.log("(4) Clear All");
+	console.log("(9) Quit\n");
 };
 
 displayMenu();
+
+
+var displayMyMenu;
+displayMyMenu = function(){
+	console.log("This is a console message..");
+};
+
+displayMyMenu();
 
 
 

@@ -3,8 +3,14 @@
 var findTotal;
 var displayMenu;
 
+var number1=50;
+var number2=30;
+var result=0;
+
+
 findTotal = function () {
 	result = number1 + number2;
+	return result;
 };
 
 displayMenu = function () {
@@ -14,6 +20,9 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
+console.log(findTotal(number1,number2));
+console.log("");
+displayMenu();
 
 
 /* Further Adventures

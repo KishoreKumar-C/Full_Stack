@@ -1,6 +1,13 @@
 // Using a function to display object properties
 
 var showMovieInfo;
+var movie1 = {
+  title:"Ice and Fire",
+  actors:"John Snow , Daenarys Targaryan",
+  directors:"Riffat Hussain"
+};
+var movie = movie1;
+
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -10,7 +17,7 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-
+showMovieInfo();
 
 /* Further Adventures
  *
