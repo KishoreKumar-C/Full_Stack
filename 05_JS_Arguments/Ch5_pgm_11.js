@@ -3,13 +3,15 @@
 var showPlayerPlace;
 
 showPlayerPlace = function (playerName, playerPlace) {
-    console.log(playerName + " is in " + playerPlace);
+    console.log(playerName[3] + " is in " + playerPlace);
 };
 
 showPlayerPlace("Kandra", "The Dungeon of Doom");
 showPlayerPlace("Dax", "The Old Library");
 
-
+//When i changed it to 3, the first function displays d 
+//while the second function says undefined as the length of dax is only three.
+//And index starts from 0 so at position three no value in the second function.
 
 /* Further Adventures
  *

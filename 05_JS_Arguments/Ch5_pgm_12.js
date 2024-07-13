@@ -5,7 +5,7 @@ var player2;
 var showPlayerPlace;
 
 showPlayerPlace = function (playerName, playerPlace) {
-    console.log(playerName + " is in " + playerPlace);
+    console.log(playerName.substring(1,4) + " is in " + playerPlace);
 };
 
 player1 = {
@@ -23,6 +23,10 @@ player2 = {
 showPlayerPlace(player1.name, player1.place);
 showPlayerPlace(player2.name, player2.place);
 
+
+// The substirng method takes two arguments the first argument is the start index 
+// and the second argument is the end index of a particular string and the second index 
+// does not take the value of that particular value.
 
 
 /* Further Adventures
