@@ -3,7 +3,7 @@
 var getPlayerName;
 
 getPlayerName = function (playerName) {
-    return playerName;
+    return "|\n| " + playerName + "\n|";
 };
 
 console.log(getPlayerName("Kandra"));

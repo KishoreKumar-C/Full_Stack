@@ -2,13 +2,12 @@
 
 var add;
 
-add = function (number1, number2) {
-	var total = number1 + number2;
-
-	return total;
+add = function (number1, number2, number3) {
+	var total = number1 + number2 + number3;
+	return "The sum of " + number1 + " , " + number2 + " and " + number3 + " is " + total;
 };
 
-var sum = add(50, 23);
+var sum = add(70, 23, 7);
 
 console.log(sum);
 

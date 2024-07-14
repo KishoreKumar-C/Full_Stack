@@ -6,7 +6,7 @@ var sum;
 var totalCost;
 
 getMessage = function () {
-    return "I’m going on an adventure!"; 
+    return "I'm going on an adventure!"; 
 };
 
 getHelloTo = function (name) {
@@ -21,7 +21,10 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
 
-
+console.log(getMessage());
+console.log(getHelloTo("Ram"));
+console.log(sum(50,50));
+console.log(totalCost(45,100,2));
 
 /* Further Adventures
  *

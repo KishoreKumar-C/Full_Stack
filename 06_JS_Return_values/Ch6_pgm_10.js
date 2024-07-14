@@ -12,17 +12,22 @@ var getPlayerPlace = function (playerName, playerPlace) {
     return playerName + " is in " + playerPlace;
 };
 
+var getPlayerItems = function (playerName, playerItem) {
+    return playerName + " has the item \"" + playerItem + "\"";
+}
+
 var getBorder = function () {
     return "================================";
 };
 
-var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
+var getPlayerInfo = function (playerName, playerPlace, playerHealth, playerItem) {
     var playerInfo;
 
     playerInfo = "\n" + getPlayerName(playerName);
     playerInfo += "\n" + getBorder();
     playerInfo += "\n" + getPlayerPlace(playerName, playerPlace);
     playerInfo += "\n" + getPlayerHealth(playerName, playerHealth);
+    playerInfo += "\n" + getPlayerItems(playerName, playerItem);
     playerInfo += "\n" + getBorder();
     playerInfo += "\n";
 
@@ -32,17 +37,19 @@ var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 var player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
-    health: 50
+    health: 50,
+    items: "a rusty key"
 };
 
 var player2 = {
     name: "Dax",
     place: "The Old Library",
-    health: 40
+    health: 40,
+    items: "a piece of cheese"
 };
 
-console.log(getPlayerInfo(player1.name, player1.place, player1.health));
-console.log(getPlayerInfo(player2.name, player2.place, player2.health));
+console.log(getPlayerInfo(player1.name, player1.place, player1.health, player1.items));
+console.log(getPlayerInfo(player2.name, player2.place, player2.health, player2.items));
 
 
 
