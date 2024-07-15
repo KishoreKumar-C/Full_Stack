@@ -1,12 +1,22 @@
 // Getting a string for a player’s name
 
 var getPlayerName;
+var getPlayerName1;
+
+getPlayerName1 = function(playerName) {
+    var equal="=";
+    return equal.repeat(4) + " " + playerName + " " + equal.repeat(4); 
+}
+
 
 getPlayerName = function (playerName) {
     return "|\n| " + playerName + "\n|";
 };
 
+console.log(getPlayerName1("kiki"));
+
 console.log(getPlayerName("Kandra"));
+
 
 
 
