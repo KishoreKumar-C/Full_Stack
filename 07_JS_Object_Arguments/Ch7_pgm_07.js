@@ -1,9 +1,20 @@
 // Converting a string to upper case
 
-var planet = "Jupiter";
-var bigPlanet = planet.toUpperCase();
+var planet1 = "Jupiter";
+var bigPlanet = planet1.toUpperCase();
 
-console.log(planet + " becomes " + bigPlanet);
+var getBig = function(planet) {
+    var newPlanet = planet.toUpperCase();
+    return planet + " becomes " + newPlanet;
+}
+
+var getSmall = function(planet) {
+    var newPlanet = planet.toLowerCase();
+    return planet + " becomes " + newPlanet;
+}
+
+console.log(getBig(planet1));
+console.log(getSmall(planet1));
 
 
 

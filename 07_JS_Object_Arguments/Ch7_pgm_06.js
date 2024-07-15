@@ -4,12 +4,33 @@ var line = function (lineLength) {
     var line = "========================================";
     lineLength = Math.max(0, lineLength);
     lineLength = Math.min(40, lineLength);
-    return line.substr(0, lineLength);
+    return line.substring(0, lineLength);
   };
-  
-  console.log(line(30));
-  console.log(line(40));
+
+  var space = function (spaceLength) {
+  var space = "                                        ";
+    spaceLength = Math.max(0, spaceLength);
+    spaceLength = Math.min(40, spaceLength);
+    return space.substring(0,spaceLength);
+  }
+
+  var emptyBox = function(equalLength) {
+    var equal = "========================================";
+    var space = "                                        ";
+    equalLength = Math.max(0,equalLength);
+    equalLength = Math.min(40, equalLength);
+    console.log(equal.substring(0,equalLength));
+    console.log("=" +space.substring(0,equalLength-2) + "=");
+    console.log("=" +space.substring(0,equalLength-2) + "=");
+    console.log("=" +space.substring(0,equalLength-2) + "=");
+    console.log(equal.substring(0,equalLength));
+  }
+
+  console.log(line(35));
   console.log(line(50));
+  console.log(space(10) + ".");
+  console.log(space(20) + ".");
+  emptyBox(12);
   
   
   

@@ -2,9 +2,13 @@
 
 var message = "We choose to go to the Moon!";
 
-console.log(message.substr(3, 12));
+console.log(message.substring(3, 12));
+console.log(message.substring(23));
+console.log(message.substring(13,23));
+console.log(message.substring(0,9))
 
-
+ // If the second index is not given the entire string is taken from the start index.
+ // Negative values are not taken by the substring method.
 
 /* Further Adventures
  *
